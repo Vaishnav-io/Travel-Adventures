@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #CBC4B5;
+}
+
+.jumbotron {
+    background-image: url('./Images/jumbtron\ bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.latest-posts .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+/* 
+.latest-posts .card {
+    width: 300px; 
+    margin: 20px;
+}  */
